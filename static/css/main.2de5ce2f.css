@@ -1,0 +1,543 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap);
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #1c1d23 !important;
+    font-family: Poppins !important;
+    margin: 0
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace
+}
+
+.swiper {
+    height: 100%;
+    width: 100%
+}
+
+.swiper-slide {
+    align-items: center;
+    background: #fff;
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    text-align: center
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0
+}
+
+.card-li {
+    font-weight: 600;
+    text-decoration: underline
+}
+
+.custom-btn {
+    align-items: center;
+    background: linear-gradient(273.16deg, #ff94ff 20.63%, #6dd8d4 75.15%);
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 5px 15px #00000059;
+    color: #1b1c22;
+    display: flex;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    height: 44px;
+    justify-content: center;
+    margin-top: 32px;
+    text-decoration: none;
+    text-transform: capitalize;
+    width: 195px
+}
+
+.common-gap {
+    padding: 80px 128px !important
+}
+
+.silver-card {
+    border: 2px solid #fff;
+    border-radius: 16px;
+    padding: 16px 32px
+}
+
+.card-grid {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(3, minmax(0, 1fr))
+}
+
+.h4-title {
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+    opacity: .7
+}
+
+.card-p-24 {
+    color: #fff;
+    font-size: 24px;
+    margin: 8px 0
+}
+
+.card-p-small {
+    color: #fff;
+    margin: 0;
+    opacity: .6
+}
+
+.card-secondary {
+    border: 2px solid #fec5a3
+}
+
+.card-secondary-color {
+    color: #fec5a3
+}
+
+.card-multi-color {
+    -webkit-text-fill-color: #0000;
+    background: linear-gradient(80.03deg, #6dd8d4 14.6%, #f389c0 32.28%), linear-gradient(0deg, #fff, #fff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    opacity: .9
+}
+
+.ecosystem-card {
+    background: linear-gradient(64.83deg, #30304e 15%, #27283c 60%);
+    border: 2px solid #fff;
+    border-radius: 16px;
+    padding: 48px 48px 24px
+}
+
+.m-b-24 {
+    margin-bottom: 24px
+}
+
+.no-opcity {
+    opacity: .9
+}
+
+.grid-gap-2 {
+    gap: 32px
+}
+
+.p-b-0 {
+    padding-bottom: 0 !important
+}
+
+.p-b-30 {
+    padding-bottom: 30px !important
+}
+
+.p-t-0 {
+    padding-top: 0 !important
+}
+
+.detail-bg {
+    background: linear-gradient(276.04deg, #1c1d23 9.66%, #2a2b30 89.78%);
+    border-radius: 16px 16px 0 0;
+    max-width: 1014px;
+    padding: 2.5rem;
+    width: 100%
+}
+
+.detail-title {
+    color: #fff;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    margin: 0
+}
+
+.detail-content {
+    color: #fff;
+    margin: 32px 0
+}
+
+.detail-btn-one {
+    background: linear-gradient(276.16deg, #3484fd -5.25%, #54bdcb 95.91%);
+    border: none;
+    border-radius: 16px;
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+    padding: .75rem 0;
+    text-align: center;
+    text-decoration: none;
+    width: 100%
+}
+
+.detail-flex {
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between
+}
+
+.detail-btn-two {
+    background: linear-gradient(274.78deg, #ab83ff -1.16%, #3458fd 99.62%)
+}
+
+.detail-btn-three {
+    background: linear-gradient(272.76deg, #ffbe9f -3.5%, #ff93ff 97.68%)
+}
+
+.giveWay-flex {
+    align-items: center;
+    background: #fec5a3;
+    border-radius: 24px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin: 0 auto;
+    max-width: 1146px;
+    width: 100%
+}
+
+.giveWay-Left {
+    padding: 80px
+}
+
+.giveWay-Left h3 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    margin: 0
+}
+
+.giveWay-Left p {
+    margin-bottom: 0;
+    margin-top: 24px
+}
+
+.giveaway-btn {
+    background: #1c1d23;
+    border: none;
+    border-radius: 16px;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-top: 24px;
+    padding: .75rem 1.5rem;
+    text-decoration: none
+}
+
+.giveaway-btn,
+.text-center {
+    text-align: center
+}
+
+.faq-title {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0
+}
+
+.faq-p {
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 24px;
+    opacity: .9
+}
+
+.custom-accordion {
+    margin: 45px auto 0;
+    max-width: 802px;
+    width: 100%
+}
+
+.MuiAccordion {
+    background: #0000 !important
+}
+
+#panel1-header {
+    padding: 0
+}
+
+.accordion-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+}
+
+.plus-icon {
+    font-weight: 400
+}
+
+.link-color {
+    color: #fff;
+    opacity: .9
+}
+
+.feature-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600
+}
+
+.feature-slider {
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    justify-content: center
+}
+
+.feature-slider img {
+    width: 8rem
+}
+
+.visible-xs {
+    display: none !important
+}
+
+.title-animation {
+    animation: animated-gradient 2s infinite alternate-reverse;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #6dd8d4, #f389c0, #d8bd84, #fd8ff5, #fff);
+    background-position: -200%;
+    background-size: 200%;
+    color: #0000;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 68px;
+    margin: 24px 0
+}
+
+.menu-bg {
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px 0 10px 25px
+}
+
+@keyframes animated-gradient {
+    to {
+        background-position: 200%
+    }
+}
+
+.menu-animation {
+    text-fill-color: #0000;
+    -webkit-text-fill-color: #0000;
+    animation: shine 1s linear infinite;
+    background: linear-gradient(90deg, #ab83ff 20%, #ab08a6 40%, #ab08a6 60%, #ab83ff 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-size: 200% auto;
+    color: #000
+}
+
+.menu-animation div {
+    font-size: 18px
+}
+
+@keyframes shine {
+    to {
+        background-position: 200%
+    }
+}
+
+.logo-animation {
+    text-fill-color: #0000;
+    -webkit-text-fill-color: #0000;
+    animation: shine 1.5s linear infinite;
+    background: linear-gradient(90deg, #c540ca 20%, #8126cb 40%, #fff 60%, #ffd507 80%, #ff6330);
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-size: 200% auto;
+    color: #fff;
+    color: #000;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin-bottom: 10px
+}
+
+.counter {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center
+}
+
+.counter-panel {
+    background: linear-gradient(90deg, #3c1053, #ad5389);
+    border-radius: 10px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 600;
+    height: 80px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    position: relative;
+    width: 65px
+}
+
+.counter-panel-border:after {
+    animation: rotate 2s linear infinite;
+    background-color: initial;
+    background-image: linear-gradient(90deg, #fff0, #fff 50%, #fff0);
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    background-size: 50% 50%, 50% 50%;
+    content: "";
+    height: 200%;
+    left: -50%;
+    position: absolute;
+    top: -50%;
+    width: 200%;
+    z-index: -2
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+.panel-bottom {
+    bottom: 15px;
+    left: 0;
+    position: absolute;
+    right: 0
+}
+
+.counter-text {
+    font-size: 32px
+}
+
+@media (max-width:991px) and (min-width:768px) {
+    .common-gap {
+        padding: 40px 0 0 !important
+    }
+
+    .card-grid {
+        grid-template-columns: 100%
+    }
+
+    .hidden-xs {
+        display: none !important
+    }
+
+    .detail-flex {
+        flex-wrap: wrap;
+        gap: 1rem
+    }
+
+    .giveWay-flex {
+        grid-template-columns: 100%
+    }
+
+    .giveWay-Left {
+        padding: 24px
+    }
+
+    .giveWay-Left h3 {
+        font-size: 30px
+    }
+}
+
+@media (max-width:767px) {
+    .common-gap {
+        padding: 40px 0 0 !important
+    }
+
+    .custom-btn {
+        margin-top: 15px
+    }
+
+    .full-width-xs {
+        width: 100%
+    }
+
+    .card-grid {
+        grid-template-columns: 100%
+    }
+
+    .h4-title {
+        font-size: 24px
+    }
+
+    .hidden-xs {
+        display: none !important
+    }
+
+    .detail-bg {
+        padding: 24px
+    }
+
+    .detail-title {
+        font-size: 24px
+    }
+
+    .detail-flex {
+        flex-wrap: wrap;
+        gap: 1rem
+    }
+
+    .giveWay-flex {
+        grid-template-columns: 100%
+    }
+
+    .giveWay-Left {
+        padding: 24px
+    }
+
+    .faq-title,
+    .giveWay-Left h3 {
+        font-size: 30px
+    }
+
+    .accordion-flex {
+        font-size: 16px !important;
+        text-align: left !important
+    }
+
+    .ecosystem-card {
+        padding: 24px
+    }
+
+    .visible-xs {
+        display: block !important
+    }
+
+    .xs-m-b-20px {
+        margin-bottom: 24px !important
+    }
+
+    .menu-bg {
+        background: #000000bf;
+        border-radius: 10px;
+        padding: 0
+    }
+
+    .counter-text {
+        font-size: 30px;
+        width: 30px
+    }
+
+    .panel-bottom {
+        font-size: 14px
+    }
+
+    .counter {
+        gap: 5px;
+        padding: 0 5px
+    }
+
+    .counter-panel {
+        height: 70px;
+        margin-right: 0
+    }
+
+    .xs-reverse {
+        flex-direction: column-reverse !important
+    }
+}
+
+/*# sourceMappingURL=main.2de5ce2f.css.map*/

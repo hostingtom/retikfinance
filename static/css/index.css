@@ -1,0 +1,472 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+ 
+body {
+  margin: 0;
+  font-family: "Poppins" !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+
+  background: #1c1d23 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.card-li {
+  text-decoration: underline;
+  font-weight: 600;
+}
+.custom-btn {
+  width: 195px;
+  height: 44px;
+  color: #1b1c22;
+  font-weight: 600;
+  margin-top: 32px;
+  font-size: 18px;
+  background: linear-gradient(273.16deg, #ff94ff 20.63%, #6dd8d4 75.15%);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-transform: capitalize;
+  font-family: Poppins;
+  border: none;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.common-gap {
+  padding: 80px 128px !important;
+}
+.silver-card {
+  border: 2px solid #fff;
+  padding: 16px 32px;
+  border-radius: 16px;
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+.h4-title {
+  margin: 0;
+  font-size: 30px;
+  color: #fff;
+  opacity: 0.7;
+}
+.card-p-24 {
+  font-size: 24px;
+  color: #fff;
+  margin: 8px 0;
+}
+.card-p-small {
+  opacity: 0.6;
+  color: #fff;
+  margin: 0;
+}
+.card-secondary {
+  border: 2px solid #fec5a3;
+}
+.card-secondary-color {
+  color: #fec5a3;
+}
+.card-multi-color {
+  -webkit-text-fill-color: #0000;
+  background: linear-gradient(80.03deg, #6dd8d4 14.6%, #f389c0 32.28%),
+    linear-gradient(0deg, #fff, #fff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  opacity: 0.9;
+}
+.ecosystem-card {
+  border: 2px solid #fff;
+  padding: 16px 32px;
+  border-radius: 16px;
+  padding: 48px 48px 24px;
+  background: linear-gradient(64.83deg, #30304e 15%, #27283c 60%);
+}
+.m-b-24 {
+  margin-bottom: 24px;
+}
+.no-opcity {
+  opacity: 0.9;
+}
+.grid-gap-2 {
+  gap: 32px;
+}
+.p-b-0 {
+  padding-bottom: 0 !important;
+}
+.p-b-30 {
+  padding-bottom: 30px !important;
+}
+.p-t-0 {
+  padding-top: 0 !important;
+}
+.detail-bg {
+  background: linear-gradient(276.04deg, #1c1d23 9.66%, #2a2b30 89.78%);
+  padding: 2.5rem;
+  border-radius: 16px 16px 0 0;
+  width: 100%;
+  max-width: 1014px;
+}
+.detail-title {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  margin: 0;
+  color: #fff;
+}
+.detail-content {
+  color: #fff;
+  margin: 32px 0;
+}
+.detail-btn-one {
+  background: linear-gradient(276.16deg, #3484fd -5.25%, #54bdcb 95.91%);
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 16px;
+  border: none;
+  padding: 0.75rem 0;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+.detail-flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.detail-btn-two {
+  background: linear-gradient(274.78deg, #ab83ff -1.16%, #3458fd 99.62%);
+}
+.detail-btn-three {
+  background: linear-gradient(272.76deg, #ffbe9f -3.5%, #ff93ff 97.68%);
+}
+.giveWay-flex {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  background: #fec5a3;
+  border-radius: 24px;
+  width: 100%;
+  max-width: 1146px;
+  margin: 0 auto;
+  align-items: center;
+}
+.giveWay-Left {
+  padding: 80px;
+}
+.giveWay-Left h3 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+.giveWay-Left p {
+  margin-top: 24px;
+  margin-bottom: 0;
+}
+.giveaway-btn {
+  background: #1c1d23;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: #fff;
+  border-radius: 16px;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 24px;
+  display: inline-block;
+}
+.text-center {
+  text-align: center;
+}
+.faq-title {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+}
+.faq-p {
+  color: #fff;
+  opacity: 0.9;
+  margin-top: 24px;
+  margin-bottom: 0;
+}
+.custom-accordion {
+  width: 100%;
+  max-width: 802px;
+  margin: 45px auto 0;
+}
+.MuiAccordion {
+  background: transparent !important;
+}
+#panel1-header {
+  padding: 0;
+}
+.accordion-flex {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.plus-icon {
+  font-weight: 400;
+}
+.link-color {
+  color: #fff;
+  opacity: 0.9;
+}
+.feature-title{
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+}
+.feature-slider{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.feature-slider img{
+width: 8rem;
+}
+.visible-xs{
+  display: none !important;
+}
+.title-animation{
+  font-size: 56px;
+  font-weight: 600;
+  color: transparent;
+  background-image: linear-gradient(to right ,#6dd8d4, #f389c0, #d8bd84, #fd8ff5, #fff);
+  -webkit-background-clip: text;
+  background-clip: text;    
+  background-size: 200%;
+  background-position: -200%;
+  animation: animated-gradient 2s infinite alternate-reverse; 
+  line-height: 68px;
+  margin: 24px 0;
+}
+.menu-bg{
+  background: #fff;
+  padding:10px 0 10px 25px;
+  border-radius: 10px;
+}
+@keyframes animated-gradient{
+  to{
+    background-position: 200%;
+  }
+}
+.menu-animation{
+  background: linear-gradient(to right, #ab83ff 20%, #ab08a6 40%, #ab08a6 60%, #ab83ff 80%);
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 1s linear infinite;
+}
+.menu-animation div{
+  font-size: 18px;
+}
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+.logo-animation{
+  font-size: 24px;
+  line-height: 36px;
+  color: #fff;
+  font-weight: 800;
+  margin-bottom: 10px;
+  background: linear-gradient(to right, #C540CA 20%, #8126CB 40%, #FFF 60%, #FFD507 80%, #FF6330 100%);
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 1.5s linear infinite;
+}
+.counter{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.counter-panel{
+  padding: 10px 20px;
+  background: linear-gradient(to right, #3c1053, #ad5389);
+  border-radius: 10px;
+  margin-right: 20px;
+  display: inline-block;
+  color: #fff;
+  font-weight: 600;
+  width: 65px;
+  height: 80px;
+  position: relative;
+
+}
+.counter-panel-border::after{
+  content: "";
+  position: absolute;
+  z-index: -2;
+  left: -50%;
+  top: -50%;
+  width: 200%;
+  height: 200%;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 50% 50%, 50% 50%;
+  background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+  background-image: linear-gradient(90deg, rgba(255,255,255,0)    0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
+  -webkit-animation: rotate 2s linear infinite;
+  animation: rotate 2s linear infinite;
+}
+@-webkit-keyframes rotate {
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  100% {
+      transform: rotate(360deg);
+  }
+}
+.panel-bottom{
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+}
+.counter-text{
+  font-size: 32px;
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .common-gap {
+    padding: 40px 0px 0 !important;
+  }
+  .card-grid {
+    grid-template-columns: 100%;
+}
+.hidden-xs{
+  display: none !important;
+}
+.detail-flex {
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.giveWay-flex {
+  grid-template-columns: 100%;
+}
+.giveWay-Left {
+  padding: 24px;
+}
+.giveWay-Left h3 {
+  font-size: 30px;
+}
+}
+@media (max-width: 767px) {
+  .common-gap {
+    padding: 40px 0px 0 !important;
+  }
+  .custom-btn {
+    margin-top: 15px;
+  }
+  .full-width-xs{
+    width: 100%;
+  }
+  .card-grid {
+    grid-template-columns: 100%;
+}
+.h4-title {
+  font-size: 24px;
+}
+.hidden-xs{
+  display: none !important;
+}
+.detail-bg {
+  padding: 24px;
+}
+.detail-title {
+  font-size: 24px;
+}
+.detail-flex {
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.giveWay-flex {
+  grid-template-columns: 100%;
+}
+.giveWay-Left {
+  padding: 24px;
+}
+.giveWay-Left h3 {
+  font-size: 30px;
+}
+.faq-title {
+  font-size: 30px;
+}
+.accordion-flex {
+  font-size: 16px !important;
+  text-align: left !important;
+}
+.ecosystem-card {
+  padding: 24px;
+}
+.visible-xs{
+  display: block !important;
+}
+.xs-m-b-20px{
+  margin-bottom: 24px !important;
+}
+.menu-bg {
+  padding: 0;
+  border-radius: 10px;
+  background: #000000bf;
+}
+.counter-text {
+  font-size: 30px;
+  width: 30px;
+}
+.panel-bottom {
+  font-size: 14px;
+}
+.counter {
+  gap: 5px;
+  padding: 0 5px;
+}
+.counter-panel {
+  margin-right: 0;
+  height: 70px;
+
+}
+.xs-reverse{
+  flex-direction: column-reverse !important;
+}
+}
